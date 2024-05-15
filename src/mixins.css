@@ -1,0 +1,6 @@
+.link-style {
+  @apply text-lightBlue leading-[36px] text-[14.5px] block underline underline-offset-[3px] hover:no-underline;
+}
+.link-style-white {
+  @apply text-white leading-[26px] text-[14.5px] underline underline-offset-[3px] hover:no-underline;
+}
