@@ -1,6 +1,16 @@
+import Form from "../../components/home/form/Form";
+import Carriers from "../../components/home/carriers/Carriers";
+import HowItWorks from "../../components/home/howItWorks/HowItWorks";
+import Faq from "../../components/home/faq/Faq";
+
 const Home = () => {
   return (
-    <section className="shadow-form relative bg-white max-w-[1700px] mx-auto rounded-[30px] 2xl:mt-[50px] 2xl:py-[65px]"></section>
+    <>
+      <Form />
+      <Carriers />
+      <HowItWorks />
+      <Faq />
+    </>
   );
 };
 

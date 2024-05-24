@@ -1,0 +1,6 @@
+@media (max-width: 1550px) {
+  .inputs,
+  .form-zasilka {
+    max-width: 800px;
+  }
+}

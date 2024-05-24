@@ -20,7 +20,60 @@ html {
   max-width: 1240px;
   margin: 0 auto;
 }
+@media (max-width: 1350px) {
+  .containerc {
+    padding-inline: 30px;
+  }
+}
+@media (max-width: 767px) {
+  .containerc {
+    padding-inline: 20px;
+  }
+}
 
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+/**************************************
+**** HOME - FORM - PACKAGE - START ****
+**************************************/
 .shadow-form {
   box-shadow: 0 4px 65px 0 rgba(14, 28, 76, 0.14);
 }
+.grid-form {
+  position: relative;
+  grid-template-columns: 0.6fr 1fr 1fr;
+  gap: 30px;
+  width: 100%;
+  box-shadow: 0 9px 32px 0 #efefff;
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 15px;
+}
+.grid-form::after {
+  content: "";
+  position: absolute;
+  right: 312px;
+  bottom: 0;
+  width: 1px;
+  height: 100%;
+  background-color: #6c6cff1a;
+}
+.grid-form::before {
+  content: "";
+  position: absolute;
+  left: 196px;
+  bottom: 0;
+  width: 1px;
+  height: 100%;
+  background-color: #6c6cff1a;
+}
+/**************************************
+***** HOME - FORM - PACKAGE - END *****
+**************************************/

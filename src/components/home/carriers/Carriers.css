@@ -1,0 +1,51 @@
+@media (max-width: 1024px) {
+  .carriers-grid {
+    grid-template-columns: repeat(6, 130px);
+    justify-content: center;
+    row-gap: 20px;
+    grid-template-areas:
+      ". . carriers-heading carriers-heading . ."
+      "carriers-dpd carriers-fedex carriers-toptrans carriers-tnt carriers-gls carriers-ups";
+  }
+  .carriers-heading {
+    grid-area: carriers-heading;
+  }
+  .carriers-dpd {
+    grid-area: carriers-dpd;
+  }
+  .carriers-fedex {
+    grid-area: carriers-fedex;
+  }
+  .carriers-toptrans {
+    grid-area: carriers-toptrans;
+  }
+  .carriers-tnt {
+    grid-area: carriers-tnt;
+  }
+  .carriers-gls {
+    grid-area: carriers-gls;
+  }
+  .carriers-ups {
+    grid-area: carriers-ups;
+  }
+}
+@media (max-width: 875px) {
+  .carriers-grid {
+    grid-template-columns: repeat(3, 130px);
+    row-gap: 10px;
+    grid-template-areas:
+      ". carriers-heading ."
+      "carriers-dpd carriers-fedex carriers-toptrans"
+      "carriers-tnt carriers-gls carriers-ups";
+  }
+}
+@media (max-width: 500px) {
+  .carriers-grid {
+    grid-template-columns: repeat(2, 130px);
+    grid-template-areas:
+      "carriers-heading carriers-heading"
+      "carriers-dpd carriers-fedex"
+      "carriers-toptrans carriers-tnt"
+      "carriers-gls carriers-ups";
+  }
+}

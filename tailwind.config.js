@@ -9,6 +9,9 @@ module.exports = {
         secondaryBlue: "#3456FF",
         lightBlue: "#46D9FF",
       },
+      screens: {
+        tablet: "960px",
+      },
     },
   },
   plugins: [],

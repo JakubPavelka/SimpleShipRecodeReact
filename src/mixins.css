@@ -4,3 +4,14 @@
 .link-style-white {
   @apply text-white leading-[26px] text-[14.5px] underline underline-offset-[3px] hover:no-underline;
 }
+.form-shipping-row-single {
+  @apply flex items-center gap-[12px];
+}
+
+.form-input {
+  @apply py-[15px] px-[20px] rounded-[10px] border border-solid border-[#767676] text-[16px];
+}
+
+.form-input-w-img {
+  @apply py-[15px] pr-[20px] pl-[50px] rounded-[10px] border border-solid border-[#767676] text-[16px];
+}

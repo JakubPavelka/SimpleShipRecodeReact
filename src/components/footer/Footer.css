@@ -1,0 +1,40 @@
+@media (max-width: 960px) {
+  .logontext {
+    grid-area: logontext;
+  }
+  .info {
+    grid-area: info;
+  }
+  .zajima {
+    grid-area: zajima;
+  }
+  .rychkontakt {
+    grid-area: rychkontakt;
+  }
+  .footer-text {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas:
+      "logontext . ."
+      "info zajima rychkontakt";
+    row-gap: 40px;
+  }
+}
+@media (max-width: 600px) {
+  .footer-text {
+    /* place-items: center; */
+    grid-template-columns: repeat(2, 50%);
+    grid-template-areas:
+      "logontext logontext"
+      "info zajima"
+      "rychkontakt .";
+  }
+}
+.fb-logo:hover {
+  filter: invert(75%) brightness(500%);
+}
+@media (max-width: 460px) {
+  .logontext {
+    margin: 0 auto;
+  }
+}

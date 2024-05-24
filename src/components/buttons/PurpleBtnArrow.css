@@ -1,0 +1,12 @@
+.purpleBtnArrow {
+  transition: all 0.2s;
+}
+.purpleBtnArrow:hover {
+  box-shadow: 0 0 10px 4px rgba(108, 108, 255, 0.699);
+}
+
+@media (max-width: 1550px) {
+  .purple-btn-arrow-form {
+    max-width: 800px;
+  }
+}
